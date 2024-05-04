@@ -50,3 +50,16 @@ input[type="range"] {
   font-weight: bold;
   color: #333;
 }
+
+/* Media Queries */
+@media (max-width: 600px) {
+  .login_page {
+    max-width: 300px;
+  }
+}
+
+@media (max-width: 400px) {
+  .login_page {
+    max-width: 250px;
+  }
+}
