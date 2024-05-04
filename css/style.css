@@ -57,12 +57,18 @@ input[type="range"] {
 /* Media Queries */
 @media (max-width: 600px) {
   .login_page {
-    max-width: 350px;
+    max-width: 400px;
+  }
+  img {
+    width: 100%;
   }
 }
 
 @media (max-width: 400px) {
   .login_page {
-    max-width: 300px;
+    max-width: 400px;
+  }
+  img {
+    width: 100%;
   }
 }
