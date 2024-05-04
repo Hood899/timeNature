@@ -32,7 +32,10 @@ img {
   border-radius: 5px;
   margin-bottom: 20px;
   object-fit: cover;
-}
+  display: block;
+  text-align: center;
+  
+ }
 
 p {
   font-size: 14px;
