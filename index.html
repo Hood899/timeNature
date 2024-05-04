@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>timeNature</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Supherhero">
+    <meta name="keywords" content="programming hero,learn programming">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/vnd.microsoft.icon">
+    
+
+    <!--custom css-->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+
+
+  <div class="login_page">
+  <form action="" onsubmit="submitForm(event)">
+    <h1>Hello World</h1>
+
+    <img id="image" src="https://images.unsplash.com/photo-1500382017468-9049fed747ef?q=80&w=1332&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Default Image">
+    <p id="message"></p>
+  
+    <input type="range" min="0" max="23" step="1" oninput="changeImageAndMessage()" id="timeRange">
+ 
+    <p id="time"></p>
+    <p>© 2024 Hood. All rights reserved.</p>
+   
+  </form>
+</div>
+
+
+<!--main js-->
+<script src="js/main.js"></script>
+</body>
+</html>
